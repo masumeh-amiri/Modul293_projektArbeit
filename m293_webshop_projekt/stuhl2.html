@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stuhl2</title>
+    <link rel="stylesheet" href="detail.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <header>
+      <div class="top-bar">
+        <div class="logo"><img class="logoImage" src="shokuh.jpg" /></div>
+        <nav class="main-nav">
+          <ul id="navbar">
+            <li class="navlist"><a href="index.html">Startseite</a></li>
+            <li class="navlist"><a href="product.html">Produkte</a></li>
+            <li class="navlist"><a href="uberuns.html">Über uns</a></li>
+            <li class="navlist">
+              <a href="kontakt.html">Kontaktieren Sie uns</a>
+            </li>
+            <li id="lg-bag" class="navlist">
+              <a href="warenkorb.html"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </nav>
+        <div id="mobile">
+          <i id="bar" class="fas fa-outdent"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Product Section -->
+        <section class="product">
+          <div class="product-gallery">
+            <div class="main-image">
+              <img
+                class="productImg"
+                src="https://porta.de/media/cf/fmtStageMobile/8qaiu811gvot/7wUL0VsRqLC9d7BupOxK3G/8770bbaf8dcdf78b7d92813c53d35cea/Welcher_Stuhl_zu_welchem_Tisch.jpg"
+                alt="Stuhl"
+              />
+            </div>
+          </div>
+
+          <div class="product-details">
+            <h1 class="product-title">Bequemer Essstuhl</h1>
+            <div class="product-price">50 CHF</div>
+
+            <div class="product-form">
+              <div class="form-group">
+                <select name="size" id="size">
+                  <option value="">Farbe Wählen</option>
+                  <option value="Schwarz">Schwarz</option>
+                  <option value="Weiss">Weiss</option>
+                  <option value="Eiche">Eiche</option>
+                </select>
+              </div>
+
+              <div class="form-group quantity-wrapper">
+                <input
+                  type="number"
+                  name="quantity"
+                  id="quantity"
+                  value="1"
+                  min="1"
+                />
+                <button class="add-to-cart">In den Warenkorb</button>
+              </div>
+            </div>
+
+            <div class="product-info">
+              <h2>Product Details</h2>
+              <p>
+                Der Designerstuhl überzeugt durch sein zeitloses Design und
+                herausragende Sitzqualität. Mit seiner schlanken Silhouette und
+                hochwertigen Materialien fügt er sich perfekt in moderne
+                Wohnräume, Büros oder Co-Working-Spaces ein. Sitzschale aus
+                nachhaltigem Eichenholz oder schwarzem Kunststoff Polsteroption:
+                Bezug aus strapazierfähigem Wollstoff oder veganem Leder
+                Stabile, wippfähige Metallbasis mit Gummiuntersätzen für
+                rutschfesten Stand
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/778e0b8f83.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="product.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

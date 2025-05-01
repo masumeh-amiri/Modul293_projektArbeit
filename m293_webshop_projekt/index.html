@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Möbel, Handcrafted Designmöbel Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="logo"><img src="shokuh.jpg" /></div>
+        <nav class="main-nav">
+          <ul id="navbar">
+            <li class="navlist"><a href="index.html">Startseite</a></li>
+            <li class="navlist"><a href="product.html">Produkte</a></li>
+            <li class="navlist"><a href="uberuns.html">Über uns</a></li>
+            <li class="navlist">
+              <a href="kontakt.html">Kontaktieren Sie uns</a>
+            </li>
+            <li id="lg-bag" class="navlist">
+              <a href="warenkorb.html"><i class="fa-solid fa-cart-shopping"></i></a>
+              <span class="cart-count" id="cartCount">0</span>
+
+
+            </li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </nav>
+        <div id="mobile">
+          <i id="bar" class="fas fa-outdent"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="welcome">
+        <h3>Willkommen</h3>
+        <h4>Exquisite Mode für anspruchsvolle Stilisten</h4>
+        <p>
+          Willkommen bei Shokoh! Als junges Online-Möbelhaus mit flexibler
+          Auslieferung, bieten wir Ihnen moderne und praktische Designmöbel.
+          Tauchen Sie ein in unsere einzigartige Auswahl und genießen Sie den
+          speziellen Einrichtungsstil den wir Ihnen bieten können. Machen Sie
+          Ihr Zuhause mit uns zu einem Ort, an dem Sie sich wohlfühlen.
+        </p>
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="video4.mp4" type="video/mp4" />
+            <source src="dein-video.webm" type="video/webm" />
+            Ihr Browser unterstützt das Video-Element nicht.
+          </video>
+        </div>
+      </section>
+
+      <section class="offers">
+        <div class="offers-content">
+          <h3>Verpassen Sie nicht diese unglaublichen Angebote!</h3>
+          <p>
+            Wir sind stolz auf das, was wir anbieten können, daher wir Ihnen
+            damit nicht aus sind.
+          </p>
+          <button
+            onclick="window.location.href='product.html';"
+            class="subscribe-btn"
+          >
+            ENTDECKEN
+          </button>
+        </div>
+      </section>
+
+      <section class="featured">
+        <h3>Ausgewählte Artikel</h3>
+        <h2>Der Favorit von allen</h2>
+
+        <div class="carousel-container">
+       
+
+          <div class="carousel-grid">
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Modern Chair"
+                class="carousel-image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1540518614846-7eded433c457"
+                alt="Bedroom Interior"
+                class="carousel-image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://media.istockphoto.com/id/1391282084/photo/furniture-flying-in-blue-background-living-room-furniture-concept-for-home-decor-advertising.jpg?s=612x612&w=0&k=20&c=7wkvr34dLhtm96tXEB5llNEtT4MnRrW2uy3UkP9PLc8="
+                alt="House Plant"
+                class="carousel-image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://media.istockphoto.com/id/1252858277/photo/cozy-living-room-scandinavian-interior.jpg?s=612x612&w=0&k=20&c=IUG1Uv-I1yoaKvKcrJk1IjDbMesO3kC4bKRi-C2683Y="
+                alt="Office Meeting"
+                class="carousel-image"
+              />
+            </div>
+          </div>
+
+          <div class="carousel-navigation">
+            <button class="nav-button prev">&lt;</button>
+            <span class="page-indicator">
+              <span class="current-page">1</span>
+            </span>
+            <button class="nav-button next">&gt;</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="newsletter-section">
+      <h2>Jetzt für Newsletter anmelden</h2>
+      <div class="newsletter-benefits">
+        <span>✔ Neue Modelle</span>
+        <span>✔ Exklusive Angebote</span>
+        <span>✔ Sonderaktionen</span>
+      </div>
+      <form class="newsletter-form" action="#" method="POST">
+        <input type="email" placeholder="E-Mail-Adresse" required />
+        <button type="submit">Abonnieren</button>
+      </form>
+    </section>
+
+    <section class="coming-soon-section">
+      <div class="container">
+        <h2>Demnächst verfügbar</h2>
+        <p>
+          Wir sind stolz auf das, was wir erreicht haben, aber wir haben bereits
+          Pläne und ambitionen
+        </p>
+
+        <div class="countdown">
+          <div class="countdown-item">
+            <span class="number">00</span>
+            <span class="label">:</span>
+          </div>
+          <div class="countdown-item">
+            <span class="number">00</span>
+            <span class="label">:</span>
+          </div>
+          <div class="countdown-item">
+            <span class="number">00</span>
+            <span class="label">:</span>
+          </div>
+          <div class="countdown-item">
+            <span class="number">00</span>
+          </div>
+        </div>
+
+        <p class="copyright">OPL. All rights Reserved</p>
+
+        <div class="social-links">
+          <a href="#" class="social-link">F</a>
+          <a href="#" class="social-link">T</a>
+          <a href="#" class="social-link">Y</a>
+        </div>
+
+        <div class="footer-logo">Logo</div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column logo-column">
+          <h2><span>Shokoh</span><span class="highlight">Möbel</span></h2>
+        </div>
+    
+        <div class="footer-column contact-column">
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Zürich, Zurcherstrasse</li>
+            <li><i class="fas fa-phone"></i> +41.555.5555</li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:support@company.com">support@company.com</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-column info-column">
+          <h3>Über die Website</h3>
+          <p>
+            Wir stehen für zeitloses Design, hochwertige Materialien und nachhaltige Möbel für jedes Zuhause.
+            Entdecke unsere Kollektionen – vom gemütlichen Sofa bis zum stilvollen Esstisch
+          </p>
+          <p class="copyright">© 2025 Homepage</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/778e0b8f83.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="product.js">
+    </script>
+    <script src="script.js "></script>
+    <script></script>
+  </body>
+</html>

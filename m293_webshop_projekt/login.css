@@ -1,0 +1,44 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6f7d8c;
+  }
+  .login-container {
+    background: white;
+    padding:10%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 20%;
+  }
+  .login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .login-container button:hover {
+    background-color: #5a5a5a;
+  }
